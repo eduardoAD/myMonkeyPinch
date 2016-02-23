@@ -13,6 +13,12 @@
 		E4075FAC1C751082002943C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4075FAA1C751082002943C8 /* Main.storyboard */; };
 		E4075FAE1C751082002943C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4075FAD1C751082002943C8 /* Assets.xcassets */; };
 		E4075FB11C751082002943C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4075FAF1C751082002943C8 /* LaunchScreen.storyboard */; };
+		E4075FBA1C751185002943C8 /* monkey_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4075FB81C751185002943C8 /* monkey_1.png */; };
+		E4075FBB1C751185002943C8 /* object_bananabunch.png in Resources */ = {isa = PBXBuildFile; fileRef = E4075FB91C751185002943C8 /* object_bananabunch.png */; };
+		E4075FBD1C7528D3002943C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4075FBC1C7528D3002943C8 /* AVFoundation.framework */; };
+		E4075FC01C752B4E002943C8 /* hehehe1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4075FBE1C752B4E002943C8 /* hehehe1.wav */; };
+		E4075FC11C752B4E002943C8 /* chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4075FBF1C752B4E002943C8 /* chomp.wav */; };
+		E4075FC41C752D05002943C8 /* TickleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4075FC31C752D05002943C8 /* TickleGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,13 @@
 		E4075FAD1C751082002943C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4075FB01C751082002943C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4075FB21C751082002943C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4075FB81C751185002943C8 /* monkey_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey_1.png; sourceTree = "<group>"; };
+		E4075FB91C751185002943C8 /* object_bananabunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_bananabunch.png; sourceTree = "<group>"; };
+		E4075FBC1C7528D3002943C8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E4075FBE1C752B4E002943C8 /* hehehe1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hehehe1.wav; sourceTree = "<group>"; };
+		E4075FBF1C752B4E002943C8 /* chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chomp.wav; sourceTree = "<group>"; };
+		E4075FC21C752D05002943C8 /* TickleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickleGestureRecognizer.h; sourceTree = "<group>"; };
+		E4075FC31C752D05002943C8 /* TickleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickleGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4075FBD1C7528D3002943C8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,7 @@
 		E4075F951C751082002943C8 = {
 			isa = PBXGroup;
 			children = (
+				E4075FBC1C7528D3002943C8 /* AVFoundation.framework */,
 				E4075FA01C751082002943C8 /* myMonkeyPinch */,
 				E4075F9F1C751082002943C8 /* Products */,
 			);
@@ -62,7 +77,13 @@
 				E4075FA51C751082002943C8 /* AppDelegate.m */,
 				E4075FA71C751082002943C8 /* ViewController.h */,
 				E4075FA81C751082002943C8 /* ViewController.m */,
+				E4075FC21C752D05002943C8 /* TickleGestureRecognizer.h */,
+				E4075FC31C752D05002943C8 /* TickleGestureRecognizer.m */,
 				E4075FAA1C751082002943C8 /* Main.storyboard */,
+				E4075FB81C751185002943C8 /* monkey_1.png */,
+				E4075FB91C751185002943C8 /* object_bananabunch.png */,
+				E4075FBE1C752B4E002943C8 /* hehehe1.wav */,
+				E4075FBF1C752B4E002943C8 /* chomp.wav */,
 				E4075FAD1C751082002943C8 /* Assets.xcassets */,
 				E4075FAF1C751082002943C8 /* LaunchScreen.storyboard */,
 				E4075FB21C751082002943C8 /* Info.plist */,
@@ -137,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4075FB11C751082002943C8 /* LaunchScreen.storyboard in Resources */,
+				E4075FC01C752B4E002943C8 /* hehehe1.wav in Resources */,
 				E4075FAE1C751082002943C8 /* Assets.xcassets in Resources */,
+				E4075FC11C752B4E002943C8 /* chomp.wav in Resources */,
+				E4075FBA1C751185002943C8 /* monkey_1.png in Resources */,
+				E4075FBB1C751185002943C8 /* object_bananabunch.png in Resources */,
 				E4075FAC1C751082002943C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +177,7 @@
 				E4075FA91C751082002943C8 /* ViewController.m in Sources */,
 				E4075FA61C751082002943C8 /* AppDelegate.m in Sources */,
 				E4075FA31C751082002943C8 /* main.m in Sources */,
+				E4075FC41C752D05002943C8 /* TickleGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

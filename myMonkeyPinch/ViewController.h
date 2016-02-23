@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "TickleGestureRecognizer.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
 
+@property (strong) AVAudioPlayer* chompPlayer;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *monkeyPan;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *bananaPan;
+@property (strong) AVAudioPlayer* hehePlayer;
+
+- (IBAction)handlePan:(UIPanGestureRecognizer*)recognizer;
+- (IBAction)handlePinch:(UIPinchGestureRecognizer*)recognizer;
+- (IBAction)handleRotate:(UIRotationGestureRecognizer*)recognizer;
+- (void)handleTickle:(TickleGestureRecognizer*)recognizer;
 
 @end
 
